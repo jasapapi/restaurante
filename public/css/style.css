@@ -1,0 +1,14 @@
+body {background-color: #5B2600;}
+
+.laranja {background-color: #EE6F15}
+
+.cadastrar{text-decoration: none; color: #FFF; font-weight: bold; position: relative;}
+.cadastrar::after {content: " "; width: 0%; height: 2px; background-color: #FFF; position:absolute; bottom: 0; left: 0; transition: 0.3s ease-in-out;}
+.cadastrar:hover::after {width: 100%;}
+
+.card {width: 20%; margin-top: 5%; background-color: #EE6F15}
+
+.img-thumbnail {background-color: #FFFFFFC1; height: auto;}
+
+.nav-link {text-decoration: none; color: #000;}
+.nav-link:hover {color: #000;}
